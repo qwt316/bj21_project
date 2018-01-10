@@ -1,1 +1,4 @@
-创建index视图
+from django.http import HttpResponse
+
+def index(request):
+    return HttpResponse('index视图')
